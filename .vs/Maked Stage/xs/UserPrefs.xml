@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{0B733883-F674-D821-7848-0E9B08819591}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.postprocessing@2.1.7/Tests/Runtime/PostProcessingRuntimeTests.cs">
+    <Files>
+      <File FileName="Library/PackageCache/com.unity.postprocessing@2.1.7/Tests/Runtime/PostProcessingRuntimeTests.cs" Line="8" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Maked Stage" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="CloseApp.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d0226bb6-8954-4301-97be-4bb2a9951d19" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
