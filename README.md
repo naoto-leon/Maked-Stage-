@@ -42,10 +42,13 @@ RenderPipelineからupgradeをすれば一括で治るはず。。。。治ら�
 unityUpdateの度に起きてるLwrpでのPostprossingのエラー。  
 stackとかが出てきたあたりからガイドラインがあやふやに感じる(クレーム)  
 postprocess LayerをAdd CompornentからではなくWindowから追加したら何故かエラーが消えた。 
-~~windows用にbuildした際にコンソールにスクリプトエラーが出るがBuildは成功するし、~~  ~~(宣言のあやふやの警告がでる、対処済み)挙動に問題は無い。 ~~
+~~windows用にbuildした際にコンソールにスクリプトエラーが出るがBuildは成功するし、~~  ~~(宣言のあやふやの警告がでる、対処済み)挙動に問題は無い。~~
 意味がわからない。  
+macではBuild後も問題が無かったが、windowsでは一面ピンクになる問題  
+バージョンを上げる/下記の方法を試す(同様のケース)/postprossingをプロジェクトから入れ直す、または取り除く/postprossingの中身を更新するさせる  
+[同様のケース](https://github.com/Unity-Technologies/PostProcessing/issues/789)  
 
-
+予想する原因はhdrpにした際postprossingのshederファイルが壊れるか何かしらの支障をきたす。  
 
 
 #### □RenderTextureの写り込みに自身のオブジェクトが写ってしまう問題。  
